@@ -6,40 +6,70 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <div class="hero">
-      <h1>Ciao, sono Davide</h1>
-      <p>24 anni • Ingegnere Informatico • Appassionato di Java e algoritmi</p>
-      <a href="#about" class="btn">Scopri di più</a>
-    </div>
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="logo">Davide 👨‍💻</div>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">Chi sono</a></li>
+      <li><a href="#skills">Competenze</a></li>
+      <li><a href="#projects">Progetti</a></li>
+      <li><a href="#contact">Contatti</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+  <header id="home" class="hero">
+    <h1>Ciao, sono Davide</h1>
+    <p>24 anni • Ingegnere Informatico • Appassionato di Java e algoritmi</p>
+    <a href="#projects" class="btn">Scopri i miei progetti</a>
   </header>
 
-  <main>
-    <section id="about">
-      <h2>Chi sono</h2>
-      <p>
-        Sono un giovane ingegnere informatico con una forte passione per la programmazione,
-        in particolare Java e lo sviluppo di algoritmi. Mi piace unire teoria e pratica,
-        e spiegare concetti complessi in modo semplice.
-      </p>
-    </section>
+  <!-- About -->
+  <section id="about" class="section">
+    <h2>Chi sono</h2>
+    <p>
+      Sono un giovane ingegnere informatico con una forte passione per la programmazione.
+      Mi piace unire teoria e pratica, e spiegare concetti complessi in modo semplice.
+    </p>
+  </section>
 
-    <section id="portfolio">
-      <h2>Portfolio</h2>
-      <p>
-        Ho lavorato su progetti accademici e personali, tra cui implementazioni di algoritmi
-        (selection sort su file e liste), applicazioni Java e siti web.
-      </p>
-      <a href="https://github.com/tuoaccount" target="_blank" class="btn">Visita il mio GitHub</a>
-    </section>
+  <!-- Skills -->
+  <section id="skills" class="section alt">
+    <h2>Competenze</h2>
+    <div class="skills-grid">
+      <div class="card">Java & Algoritmi</div>
+      <div class="card">Web Development</div>
+      <div class="card">Database & SQL</div>
+      <div class="card">Problem Solving</div>
+    </div>
+  </section>
 
-    <section id="contact">
-      <h2>Contatti</h2>
-      <p>Email: <a href="mailto:davide@example.com">davide@example.com</a></p>
-      <p><a href="https://linkedin.com/in/davide" target="_blank">LinkedIn</a></p>
-    </section>
-  </main>
+  <!-- Projects -->
+  <section id="projects" class="section">
+    <h2>Progetti</h2>
+    <div class="projects-grid">
+      <div class="card">
+        <h3>Sorting Algorithms</h3>
+        <p>Implementazioni di selection sort su file e liste.</p>
+        <a href="https://github.com/tuoaccount" target="_blank" class="btn">GitHub</a>
+      </div>
+      <div class="card">
+        <h3>Web Portfolio</h3>
+        <p>Siti web personali e applicazioni moderne.</p>
+        <a href="social.html" class="btn">Social</a>
+      </div>
+    </div>
+  </section>
 
+  <!-- Contact -->
+  <section id="contact" class="section alt">
+    <h2>Contatti</h2>
+    <p>Email: <a href="mailto:davide@example.com">davide@example.com</a></p>
+    <p><a href="https://linkedin.com/in/davide" target="_blank">LinkedIn</a></p>
+  </section>
+
+  <!-- Footer -->
   <footer>
     <p>&copy; 2025 Davide - Ingegnere Informatico</p>
   </footer>
